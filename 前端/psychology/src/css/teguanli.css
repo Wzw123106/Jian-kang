@@ -1,0 +1,128 @@
+.guanli{
+    width:775px;
+    height: 520px;
+    /* background:rgb(240,242,245); */
+    background-color: white;
+    margin-left:-30px;
+    margin-top: 3px;
+    border-radius: 5px;
+    overflow: hidden;
+    overflow:auto;
+    position: relative;
+    
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+    /* table-layout:fixed;word-break:break-all; */
+    border: 1px solid #EBEEF5;
+}
+ table>thead{
+    width: calc( 100% - 1em);/*表头与表格垂直对齐*/
+ }
+table>thead>tr{
+    width: 100%;
+    height: 50px;
+}
+table>thead td{
+    width: 10px;
+    height: 10px;
+}
+table>tbody .xh{
+    width: 10px;
+    height: 50px;
+}
+ table>tbody .tm{
+    width: 300px;
+    height: 10px;
+    /* 此代码代表当前td的宽度由定义，不会根据内容 */
+    table-layout: fixed;
+    font-size: 12px;
+}
+table>tbody .yes{
+    table-layout: fixed;
+}
+tbody .btn{
+    width: 130px;
+    text-align: left;
+    table-layout: fixed;
+}
+tbody button{
+    width: 50px;
+    height: 20px;
+    margin-left: 10px;
+    text-align: center;
+    table-layout: fixed;
+    border-radius: 3px;
+    outline: none;
+    cursor: pointer;
+}
+.bj{
+    background: white;
+    border: 1px solid rgb(220,223,230);
+    color: black;
+}
+.bj:hover{
+    background-color: rgba(77, 103, 252, 0.5);
+    border:  1px solid rgb(98, 117, 221);
+    color: rgb(79, 79, 223);
+}
+.sc{
+    background: rgb(245,108,108);
+    color: white;
+}
+.navso{
+    width: 400px;
+    height: 400px;
+    background: rgb(48,64,86,0.8);
+    border-radius: 5px;
+    position: fixed;
+    top: 110px;
+    left: 450px;
+
+}
+.uio>table>tbody>tr:hover{
+    background: rgb(221, 221, 221,0.5);
+    cursor: pointer;
+}
+.navso>ul{
+   margin-top: 40px;
+}
+.navso input{
+    width: 200px;
+    height: 30px;
+    margin-bottom: 20px;
+    outline:none;
+    margin-top: 14px;
+    margin-left: 30px;
+    border-radius: 4px;
+}
+.navso .ou{
+    width: 90px;
+    height: 50px;
+    float: left;
+    position: absolute;
+    left: 25px;
+    line-height: 50px;
+    color: white;
+}
+.navso>ul{
+    text-align: center;
+}
+
+
+.navso button{
+    width: 70px;
+    height: 30px;
+    border-radius: 4px;
+    cursor: pointer;
+    background: rgb(78, 25, 223);
+}
+.el-icon-close{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    font-size: 25px;
+    color: white;
+    cursor: pointer;
+}

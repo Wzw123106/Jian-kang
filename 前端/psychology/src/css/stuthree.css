@@ -1,0 +1,18 @@
+.stuthree{
+    width: 740px;
+    height: 539px;
+    background: white;
+    position: absolute;
+    top: 43px;
+    text-align: left;
+    overflow:scroll
+}
+.stuthree>h3{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+.stuthree li{
+    margin-bottom: 15px;
+    margin-left: 15px;
+}

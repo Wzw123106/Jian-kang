@@ -1,0 +1,55 @@
+.inpus{
+    width:775px;
+    height: 520px;
+    background:rgb(240,242,245);
+    margin-left:-30px;
+    margin-top: 3px;
+    border-radius: 5px;
+}
+.inpuls input{
+    width: 200px;
+    height: 30px;
+    border: 1.5px solid rgb(180, 176, 176);
+    border-radius: 5px;
+}
+.navsa{
+    width: 600px;
+    height: 100%;
+    background: white;
+    margin-left: 100px;
+    position: relative;
+}
+.inpuls{
+   position: absolute;
+   top: 100px;
+   left: 100px;
+   text-align: left;
+}
+.inpuls>li{
+    margin-bottom: 30px;
+    font-size: 14px;
+}
+.inpuls>li>input{
+    margin-left: 20px;
+    outline:none;
+}
+.inpuls .yes{
+    margin-left: 28px;
+}
+.inpuls .no{
+    margin-left: 28px;
+}
+.inpuls .tes{
+    margin-left: 17px;
+}
+.bts{
+    width: 200px;
+    height: 30px;
+    margin-left: 70px;
+    cursor:pointer;
+    background: rgb(100, 100, 243);
+    border-radius: 5px;
+}
+.inpus .title{
+    margin-left: 40px;
+}

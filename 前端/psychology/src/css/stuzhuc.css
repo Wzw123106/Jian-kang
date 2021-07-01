@@ -1,0 +1,15 @@
+.stuzhuce{
+    /*此行代码可以单独设置组件的body属性 不会影响到其他页面 */
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top:0;
+    left: 0;
+    overflow-y: auto;
+    /* background-color: black; */
+    background:url(../assets/stuimg/dl.jpg) no-repeat;
+    background-size:100% 100%;
+}
+.stuzhuce .kuan{
+    margin-top: -30px;
+}

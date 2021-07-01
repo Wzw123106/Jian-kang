@@ -1,0 +1,53 @@
+.stuxiugai{
+    width: 740px;
+    height: 539px;
+    background: white;
+    position: absolute;
+    top: 43px;
+    text-align: left;
+    overflow:scroll
+}
+.stuxg{
+    width: 400px;
+    height: 300px;
+    background: rgb(238, 236, 236);
+    margin-top: 50px;
+    margin-left: 150px;
+    border-radius: 5px;
+}
+.stuhead{
+    width: 100%;
+    height: 40px;
+    background: rgba(109, 173, 226, 0.877);
+    line-height: 40px;
+    text-align: center;
+    color: white;
+}
+.stuxg ul{
+    margin-top: 30px;
+    margin-left: 50px;
+}
+.stuxg  input{
+    width: 300px;
+    height: 30px;
+    margin-bottom: 30px;
+    outline: none;
+    border-radius: 5px;
+}
+.stuxg  button{
+    width: 100px;
+    height: 30px;
+    background: rgb(96, 96, 241);
+    margin-left: 90px;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    outline: none;
+}
+.stuxs{
+    width: 300px;
+    height: 50px;
+    margin-left: 200px;
+    margin-top: 200px;
+    color: red;
+}

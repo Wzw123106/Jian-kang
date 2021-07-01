@@ -1,0 +1,13 @@
+.boteacher{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    overflow:auto;
+}
+.boteacher ul{
+    margin-top: 70px;
+}
+.boshead>table>tbody>tr:hover{
+    background: rgba(201, 202, 204, 0.6);
+    cursor: pointer;
+}

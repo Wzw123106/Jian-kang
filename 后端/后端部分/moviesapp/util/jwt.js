@@ -1,0 +1,48 @@
+/*
+ * @Author: chiLi
+ * @Date: 2021-02-05 13:23:27
+ * @LastEditors: Small electric motor
+ * @Description: For reference only
+ * @FilePath:: 当乌云散去，自会有繁星出现
+ */
+const jwt = require('jsonwebtoken');
+const cookieKey = 'Token';
+
+// jwt密钥
+const secret = 'aDcCLxa';
+/**
+ * 颁布jwt
+ */
+exports.publish = (res, maxAge = 3600 * 24 * 1000, options = {}) => {
+    const token = jwt.sign(options, secret, {
+        expiresIn: maxAge
+    })
+    res.cookie(cookieKey, token, {
+        maxAge,
+        path: '/'
+    })
+    // 添加 Authorization
+    res.header('Authorization', token);
+}
+
+/**
+ * 验证jwt
+ */
+exports.verify = (req) => {
+    let token = req.cookies[cookieKey];
+
+    if (!token) {
+        token = req.headers.authorization;
+        if (!token) {
+            //没有token
+            return null;
+        }
+        token = token.split(" ");
+        token = token.length === 1 ? token[0] : token[1];
+    }
+    try {
+        return jwt.verify(token, secret);
+    } catch (error) {
+        return null;
+    }
+}

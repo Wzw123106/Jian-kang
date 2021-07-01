@@ -1,0 +1,52 @@
+.stuces{
+    width: 740px;
+    height: 539px;
+    background: white;
+    position: absolute;
+    top: 43px;
+    text-align: left;
+    overflow:scroll
+}
+
+.stuast{
+    width: 400px;
+    height: 400px;
+    /* background: red; */
+    margin-top: 40px;
+    margin-left: 150px;
+}
+.the{
+    width: 100%;
+    height: 50px;
+    /* background: red; */
+    line-height: 50px;
+    text-align: center;
+    color: black;
+}
+.xm{
+    width: 100%;
+    height: 30px;
+    /* background: red; */
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.xm>button{
+    width: 100px;
+    height: 30px;
+    cursor: pointer;
+    background: rgb(104, 104, 235);
+    border-radius: 5px;
+    color: white;
+    outline: none;
+}
+.pl{
+    margin-right: 30px;
+    margin-left: 30px;
+}
+.stuaok{
+    margin-left: 30px;
+}
+.stuspana{
+    text-indent:2em;
+}

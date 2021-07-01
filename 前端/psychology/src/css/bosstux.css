@@ -1,0 +1,75 @@
+.bosstu{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    overflow:auto;
+}
+.boo{
+    position: fixed;
+    width: 500px;
+    height: 420px;
+    background: rgb(229, 233, 242,0.92);
+    top: 90px;
+    left: 500px;
+    border-radius:10px;
+}
+.boo-a{
+    width: 100%;
+    height: 35px;
+    background:rgb(50,64,87);
+    line-height: 35px;
+    color: white;
+}
+.boo>ul{
+    margin-top: 40px;
+}
+.boo>ul>li{
+    margin-bottom: 30px;
+}
+.boo input{
+    width: 300px;
+    height: 35px;
+    border-radius: 3px;
+    border: 1px solid rgb(206, 206, 206);
+}
+.boo button{
+    width: 100px;
+    height: 30px;
+    border-radius: 3px;
+    background:rgb(50,64,87);
+    cursor: pointer;
+    color: white;
+}
+.boinput{
+    position: fixed;
+    top: 220px;
+    left: 620px;
+    width: 300px;
+    height: 150px;
+    background:rgb(50,64,87);
+}
+.boinputa{
+    width: 100%;
+    height: 30px;
+    background: rgb(173, 171, 171);
+    line-height: 30px;
+    color: white;
+}
+.boinput>input{
+    width: 200px;
+    height: 30px;
+    margin-top: 30px;
+}
+.boinput>.btn{
+    margin-top: 27px;
+}
+.boinput>.btn>button{
+    width: 80px;
+    height: 24px;
+    cursor: pointer;
+    outline:none;
+}
+.bosstu>table>tbody>tr:hover{
+    background: rgba(201, 202, 204, 0.6);
+    cursor: pointer;
+}

@@ -1,0 +1,6 @@
+
+保持项目更新状态和安装包:{
+    1.安装 express 的项目依赖 ( express 项目名称 -e)
+    2.安装的随时更新包 ( npm install -g nodemon )
+    3. 保持项目随时更新的代码  (nodemon ./bin/www)
+}

@@ -1,0 +1,151 @@
+.stufor{
+    width: 740px;
+    height: 539px;
+    background: white;
+    position: absolute;
+    top: 43px;
+    text-align: left;
+    overflow:scroll
+}
+.stufor>h3{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+.stufor li{
+    margin-bottom: 15px;
+    margin-left: 15px;
+    text-indent: 2em
+}
+.stufa{
+    width: 100%;
+    /* height: 200px; */
+    background: rgb(248, 247, 247);
+    position: relative;;
+}
+.stu-k{
+    width: 100%;
+    height: 20px;
+    /* min-height:200px; */
+    background: rgb(234,236,243);
+}
+.stu-j{
+    width: 100%;
+    background: rgb(234,236,243);
+}
+.stu-li{
+    margin-top: 20px;
+    color: rgb(119,119,119);
+    font-size: 15px;
+    margin-left:-100px;
+}
+.rq{
+    margin-top: 5px;
+    font-size: 13px;
+    color: rgb(119,119,119);
+}
+.wz{
+    margin-top: 10px;
+    color: rgb(119,119,119);
+    font-size: 15px;
+}
+.stuhf{
+    margin-top: 10px;
+}
+.stuhf>button{
+    width: 50px;
+    height: 30px;
+    color: white;
+    background: rgb(35,183,229);
+    border-radius: 5px;
+    cursor: pointer;
+    outline:none;
+    
+}
+.nameaaq{
+    margin-top: 10px;
+}
+.stu-three{
+    margin-left: 100px;
+}
+.over{
+    margin-top: 20px;
+    margin-left: 20px;
+    color: rgb(119,119,119);
+}
+.fbly{
+    width: 100%;
+    height: 200px;
+    background:white;
+}
+.fbst{
+    color: rgb(119,119,119);
+    font-size: 18px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.fba{
+    /* width: 100px;
+    height: 100px;
+    background: red; */
+    margin-top: 20px;
+}
+.nan{
+    margin-left: -25px;
+    color:  rgb(119,119,119);
+}
+.el-icon-bicycle{
+    margin-left: -35px;
+    font-size: 5px;
+    color: red;
+}
+.hska{
+    width: 90%;
+    height: 100px;
+    border: 1px solid black;
+    margin-left: -30px;
+    text-align: left;
+    border-radius: 3px;
+}
+.ktwo{
+    width: 38%;
+    height: 25px;
+    border: 1px solid black;
+    margin-top: 10px;
+    border-radius: 3px;
+    outline:none;
+}
+.yan{
+    width: 130px;
+    height: 30px;
+    background: rgb(71,173,255);
+    margin-left: -30px;
+    border-radius: 13px;
+    margin-top: 10px;
+    cursor: pointer;
+    outline:none;
+}
+.fblytk{
+    width: 730px;
+    height: 370px;
+    background: white ;
+    position: fixed;
+    top: 120px;
+    left: 315px;
+    box-shadow:0 0 9px 3px #999;
+}
+.qxa{
+    width: 100px;
+    height: 30px;
+    background: rgb(160,160,160);
+    margin-left: 420px;
+    border-radius: 13px;
+    margin-top: 10px;
+    cursor: pointer;
+    outline:none;
+    color: white;
+    cursor: pointer;
+}
+.sthrs{
+    border-style:dotted
+}

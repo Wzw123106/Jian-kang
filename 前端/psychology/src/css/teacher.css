@@ -1,0 +1,185 @@
+.min{
+    /*此行代码可以单独设置组件的body属性 不会影响到其他页面 */
+    /* position: absolute; */
+    position: relative;
+    height: 100%;
+    width: 100%;
+    top:0;
+    left: 0;
+    overflow-y: auto;
+    /* background-color: black; */
+    /* background:url(../assets/2.jpg) no-repeat; */
+    background-size:100% 100%;
+    overflow:-Scroll;overflow-x:hidden;
+    overflow-y: hidden
+}
+.router{
+    position: absolute;
+    top: 60px;
+    left: 300px;
+}
+.min-s{
+    width: 1268px;
+    height: 580px;
+    background: white;
+    margin: 0 auto;
+    position: relative;
+}
+.headz{
+    width: 100%;
+    height: 10%;
+    /* background: rgb(122,87,181); */
+    background: rgb(48,65,86);
+}
+.headz{
+    line-height: 50px;
+    color: white;
+}
+.left{
+    width: 20%;
+    height: 90%;
+    /* background: rgb(255, 255, 255); */
+    background:rgb(48,65,86);
+    /* overflow: hidden; */
+    position: relative;
+    float: left;
+    border-radius: 5px;
+    margin-top: 3px;
+}
+.price{
+    width: 100px;
+    height: 100px;
+    background: blue;
+    position: absolute;
+    left: 70px;
+    top: 50px;
+    border-radius: 60px;
+}
+.price>img{
+    width: 100%;
+    height: 100%;
+    border-radius: 60px;
+}
+.mz{
+    position: absolute;
+    left: 80px;
+    top: 170px;
+    color: white;
+}
+.mz>h4{
+    margin-bottom: 10px;
+}
+.lb{
+    position: absolute;
+    width: 100%;
+    height: 220px;
+    /* background: blue; */
+    top: 270px;
+}
+.lb>li{
+    width: 84%;
+    height: 40px;
+    /* background:  rgba(173, 171, 171, 0.5); */
+    margin-bottom: 10px;
+    cursor:pointer;
+    text-align: left;
+    line-height: 54px;
+    opacity: 0.6;
+    border-radius: 7px;
+    color: white;
+    padding-left: 40px;
+}
+.left .tj{
+   color: rgb(63,154,248);
+}
+.lb>li:hover{
+    background:rgb(38,52,69);
+    opacity: 0.5;
+    /* color: rgb(253, 253, 253); */
+}
+.lb span{
+    margin-left: 10px;
+}
+.center{
+    width: 62%;
+    height: 90%;
+    background: rgb(240,242,245);
+    float: left;
+    margin-left: 10px;
+    border-radius: 5px;
+    margin-top: 3px;
+}
+.center-l{
+    width: 100%;
+    height: 40%;
+    background: rgb(222, 223, 224);
+}
+.right{
+    width: 16.3%;
+    height: 90%;
+    background: rgb(38,52,69);
+    float: right;
+    border-radius: 5px;
+    margin-top: 3px;
+}
+.stu{
+    margin-left: 70px;
+    margin-top: 50px;
+}
+.stu>li{
+    width: 160px;
+    height: 80px;
+    background: blue;
+    float: left;
+    margin-right:50px;
+    border-radius:5px;
+    line-height: 80px;
+}
+.stu>li>img{
+    width: 50px;
+    height: 50px;
+    margin-left: -90px;
+}
+.right>ul{
+    margin-top: 50px;
+}
+.rght>.three{
+    width: 100px;
+    height: 50px;
+    margin-top: 20px;
+    background: blue;
+}
+.right li{
+    width: 50px;
+    height: 50px;
+    float: left;
+    background: red;
+    margin-right: 10px;
+    margin-bottom: 30px;
+    margin-left: 7px;
+    border-radius: 10px;
+}
+.right img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    cursor:pointer
+}
+.cen-l{
+    margin-top: 50px;
+    margin-left: 100px;
+}
+
+.cen-l>li{
+    width: 180px;
+    height: 100px;
+    background: rgb(70, 110, 240);
+    float: left;
+    margin-right: 40px;
+    line-height: 100px;
+    font-size: 17px;
+    cursor:pointer;
+    border-radius: 3px;
+    color: white;
+    box-shadow: 0 0 10px 2px rgba(122, 121, 121, 0.5);
+}

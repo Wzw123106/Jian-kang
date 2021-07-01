@@ -1,0 +1,53 @@
+
+.user{
+    /*此行代码可以单独设置组件的body属性 不会影响到其他页面 */
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top:0;
+    left: 0;
+    overflow-y: auto;
+    /* background-color: black; */
+    background:url(../assets/2.jpg) no-repeat;
+    background-size:100% 100%;
+}
+.nav{
+    width: 500px;
+    height: 300px;
+    background: rgba(252, 251, 251, 0.5);
+    margin: 0 auto;
+    margin-top: 125px;
+    /* opacity: 0.5; */
+    position: relative;
+    border-radius: 5px;
+    box-shadow: 0 0 20px 4px rgb(3, 3, 3,0.5);
+}
+.nav>.kuan{
+    position: absolute;
+    top: 50px;
+    left: 22%;
+    
+}
+.kuan>li{
+    margin-bottom: 25px;
+}
+.kuan .username,.password{
+    width: 250px;
+    height: 35px;
+    border-radius: 3px;
+    outline:none;
+    font-size: 13px;
+}
+.kuan .btn{
+    width: 100px;
+    height: 30px;
+    outline:none;
+    cursor:pointer;
+    border-radius: 3px;
+    background-color: rgba(51, 95, 240, 0.5);
+}
+.user .head{
+    font-size: 24px;
+    color: rgba(150, 141, 141);
+}
+

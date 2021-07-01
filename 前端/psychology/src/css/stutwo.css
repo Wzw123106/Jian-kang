@@ -1,0 +1,19 @@
+.stutwo{
+    width: 740px;
+    height: 539px;
+    background: white;
+    position: absolute;
+    top: 43px;
+    text-align: left;
+    overflow:scroll
+}
+.stutwo>h3{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+.stutwo li{
+    margin-bottom: 20px;
+    margin-left: 15px;
+    text-indent: 2em
+}
